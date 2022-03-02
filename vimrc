@@ -1,7 +1,14 @@
-set nocompatible	" be iMproved, required
-filetype plugin indent on " let filetypes do their own things
+" be improved, required for pretty much everything
+set nocompatible
 
-" Set UTF-8 encoding
+" use vim-pathogen to manage bundles
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect('bundle/{}')
+
+" let filetypes do their own things
+filetype plugin indent on
+
+" set UTF-8 encoding
 set encoding=utf-8
 set fileencoding=utf-8
 
