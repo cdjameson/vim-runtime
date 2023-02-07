@@ -626,5 +626,8 @@ hi! link pythonExceptions pythonBuiltin
 call s:Hi('pythonSelf', s:p.self)
 hi! link pythonDocstring docComment
 
+" Fugitive
+call s:Hi('diffAdded', s:p.string)
+
 " help
 hi! link helpHyperTextJump Number
