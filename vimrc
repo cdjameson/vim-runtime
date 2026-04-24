@@ -38,9 +38,9 @@ set backspace=indent,eol,start
 " turn on syntax highlighting
 syntax on
 
-" use the default colorscheme because the rest are *~*bad*~*
+" use the darcula colorscheme because I̶ ̶m̶i̶s̶s̶ ̶P̶y̶C̶h̶a̶r̶m others are **bad**
 " GUIs can override this if they want
-colorscheme default
+colorscheme darcula
 
 " CUSTOM MAPPINGS GO AT THE BOTTOM
 
